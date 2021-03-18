@@ -1,0 +1,59 @@
+.todo {
+    display: flex;
+    align-items: stretch;
+    background-color: #fff;
+    color: #333;
+    text-transform: capitalize;
+    font-style: italic;
+    border-radius: 10px;
+    width: 70%;
+    overflow: hidden;
+    margin: .5rem auto;
+    font-size: 15px;
+}
+
+.todo.completed,
+.todo.completed .todo-text {
+    opacity: .4;
+}
+
+.todo.completed .todo-text {
+    text-decoration: line-through;
+}
+
+.todo-text {
+    display: inline-block;
+    flex: 1;
+    margin: .5rem;
+}
+
+.todo-delete,
+.todo-done,
+.todo-change {
+    cursor: pointer;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: 700; */
+    width: 2rem;
+    font-size: .8rem;
+    color: #fff;
+}
+
+.todo-delete {
+    color: rgb(233, 48, 48);
+}
+
+.todo-done {
+    color: rgb(24, 173, 74);
+}
+
+.todo-change {
+    color: #3498db;
+}
+
+.todo-delete i,
+.todo-done i{
+    
+}
