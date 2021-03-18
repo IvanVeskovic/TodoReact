@@ -1,8 +1,8 @@
 .todo {
     display: flex;
     align-items: stretch;
-    background-color: #fff;
-    color: #333;
+    background-color: #ecf0f1;
+    color: rgb(87, 87, 87);
     text-transform: capitalize;
     font-style: italic;
     border-radius: 10px;
